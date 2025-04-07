@@ -51,6 +51,9 @@ web_modules/
 # Optional npm cache directory
 .npm
 
+./tarefamodulo4/.yarn/*
+.yarn/*
+
 # Optional eslint cache
 .eslintcache
 
