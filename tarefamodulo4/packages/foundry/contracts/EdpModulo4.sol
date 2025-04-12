@@ -109,8 +109,8 @@ contract KipuBank {
     // --------------------------------
     // 4 - Consulta de Saldo
     // Funcao que retorna o saldo de um cliente com base em seu endereco.
-    function viewBankAmount(address _bankAddress) public view returns (uint) {
-        return s_bankAmount[_bankAddress];
+    function viewMyBalance() public view returns (uint) {
+        return s_bankAmount[msg.sender];
         // Retorna o saldo associado ao endereco informado.
     }
 }
